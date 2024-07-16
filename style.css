@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'OdinFont';
+    src: url("norse-Bold.otf");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#leftpart {
+    width: 67vh;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+#blackbox {
+    position: absolute;
+    top: 20vh;
+    width: 67vh;
+    height: 18vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 3rem;
+    font-family: "OdinFont";
+}
+
+#logo {
+    position: absolute;
+    transform: scale(0.25);
+    top: -19.5vh;
+    left: 1vh;
+}
+
+#odintext {
+    position: absolute;
+    left: 29vh;
+    top: -2vh;
+}
+
+#formpart {
+    position: absolute;
+    top: 0;
+    left: 67vh;
+    width: 100vh;
+    height: 100vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-top: 12vh;
+    padding-left: 10vh;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+#maxtext {
+    max-width: 42rem;
+}
+
+#formdiv {
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    height: 40vh;
+    width: 100vh;
+    padding-left: 10vh;
+    background-color: white;
+    box-shadow: 0 10px 15px -15px black;
+
+}
+
+label {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    letter-spacing: 0.1rem;
+    display: flex;
+    margin-top: 0px;
+}
+
+input {
+    margin-top: 0;
+    width: 30vh;
+    height: 3vh;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+.pwd:invalid {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.beg {
+    margin-top: 20px;
+}
+
+form {
+    padding-top: 18px;
+}
+
+button {
+    position: relative;
+    top: 300px;
+    left: -615px;
+    width: 22vh;
+    height: 5vh;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+}
+
+#lasttext {
+    position: relative;
+    top: 300px;
+    left: -615px;
+    font-size: 1rem;
+}
+
+a:visited, a, a:link {
+    color: #596D48;
+    text-decoration: none;
+}
